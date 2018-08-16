@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+nav {
+	background-color: tomato;
+	height: 100px;
+}
+ul {
+	text-align: center;
+}
+li {
+	display: inline-block;
+	padding: 10px;
+	margin: 25px;
+	background-color: #fff;
+	position: relative;
+	top: 5px;
+	transition: all 0.5s ease;
+}
+li:hover {
+	background-color: tomato;
+	color: #fff;
+	font-size: 20px;
+	border: 1px solid #fff;
+}
+li:hover a {
+	color: #fff;
+}
+div {
+	text-align: center;
+}
+button {
+	background-color: #4dff4d;
+	color: green;
+	margin: 50px 10px;
+	padding: 10px 15px;
+	border-radius: 5px 5px 5px 5px;
+	border-style: none;
+	transition: color 0.5s ease;
+}
+button:hover {
+	background-color: #28a728;
+}
